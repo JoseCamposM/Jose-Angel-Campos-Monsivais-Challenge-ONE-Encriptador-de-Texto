@@ -1,0 +1,137 @@
+/* Estilos globales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  /* Estilos del cuerpo del documento */
+  body {
+    width: 100%;
+    background-color: aliceblue;
+  }
+  
+  /* Estilos del contenedor principal */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos del formulario */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos del área de texto del formulario */
+  .formulario textarea {
+    width: 98%;
+    height: 50vh;
+    margin-left: 1%;
+    margin-top: 5vh;
+    
+    font-size: 2rem;
+  }
+  
+  /* Estilos del botón del formulario */
+  .btn {
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-top: 25px;
+    width: 90%;
+    height: 10vh;
+  }
+  
+  /* Estilos específicos para el botón "Encriptar" */
+  #btnEncriptar {
+    background-color: #0a3871;
+    color: white;
+  }
+  
+  /* Estilos específicos para el botón "Desencriptar" */
+  #btnDesencriptar {
+    border: 5px solid #0a3871;
+  }
+  
+  /* Estilos del mensaje resultante */
+  .mensaje {
+
+    width: 100%;
+    margin-top: 5vh;
+    text-align: center;
+    padding: 10px;
+    height: 30vh;
+  }
+  
+  /* Estilos del signo de exclamación */
+  #exclamation {
+    width: 70%;
+    margin-left: 5%;
+    color: blue;
+    margin-top: 2vh;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    margin-top: 2vh;
+    width: 20%;
+  }
+  
+  /* Estilos de la imagen del encabezado */
+  header picture {
+    width: 100%;
+  }
+  
+  /* Estilos de la imagen del encabezado */
+  header picture img {
+    width: 100%;
+  }
+
+
+@media only screen and (min-width: 720px) {
+    /* Estilos para monitores de PC */
+
+    .btn {
+        width: 50%;     
+    }
+
+    #txtEscribir{
+      margin-left: 6%;
+      width: 60%;
+    }
+    
+    #resultado{
+      width: 20%;
+      height: 76vh;
+      margin-top: 0%;
+      border-radius: 2%;
+      background-color: whitesmoke;;
+    }
+    .container{ 
+        width: 80%;
+    }
+
+    #exclamation{ 
+        margin-left: 6%;
+        width: 80%;
+    }
+
+    .botones{
+      display: flex;
+      width: 100%;
+    }
+
+.prueba {
+      display: flex;
+      flex-direction: row;
+    }
+
+.img-no-encontrada{
+    width: 100%;
+    height: 30vh;
+    background-image: url("../img/Muñeco.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+}
